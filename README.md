@@ -28,8 +28,11 @@ This project uses **CrewAI agents** + **LangChain** inside a **Streamlit app** t
 ### Example
 
 **Raw Email**
+
 hey can u send me that report asap, thx
+
 **AI-Polished Email**
+
 Subject: Request for Report
 
 Dear [Recipient's Name],
@@ -43,16 +46,6 @@ Best regards,
 [Your Position]
 [Your Contact Information]
 
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3.11+**
-- [Streamlit](https://streamlit.io/) → User Interface  
-- [CrewAI](https://www.crewai.com/) → Multi-Agent Orchestration  
-- [LangChain](https://www.langchain.com/) → LLM Integrations  
-- [python-dotenv](https://pypi.org/project/python-dotenv/) → Secure API Key Management  
 
 ---
 
