@@ -1,13 +1,11 @@
 # AI-Powered-Email-Professionalizer
 
-# 📧 AI Email Professionalizer
-
 Transform any email into a **clear, polite, and professional business message** with the power of AI.  
 This project uses **CrewAI agents** + **LangChain** inside a **Streamlit app** to polish communication for workplace and academic use.
 
 ---
 
-## ✨ Features
+##  Features
 
 ✅ Rewrite informal or rough emails into professional English  
 ✅ Expand abbreviations inline (e.g., ASAP → *as soon as possible*)  
@@ -18,7 +16,7 @@ This project uses **CrewAI agents** + **LangChain** inside a **Streamlit app** t
 
 ---
 
-## 🖼️ Demo Preview  
+## 🖼 Demo Preview  
 
 <img width="1803" height="788" alt="image" src="https://github.com/user-attachments/assets/66a707a6-eb69-4763-9d1f-7c010825101c" />
 <img width="1717" height="774" alt="image" src="https://github.com/user-attachments/assets/38271d6c-44fe-42de-994d-a00bf78095d6" />
@@ -49,7 +47,7 @@ Best regards,
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - **Python 3.11+**
 - [Streamlit](https://streamlit.io/) → User Interface  
@@ -57,3 +55,34 @@ Best regards,
 - [LangChain](https://www.langchain.com/) → LLM Integrations  
 - [python-dotenv](https://pypi.org/project/python-dotenv/) → Secure API Key Management  
 
+## How It Works
+
+- This app uses a multi-agent AI workflow:
+
+- Email Reader Agent → Understands the input email and extracts its context.
+
+- Email Writer Agent → Rewrites the email into a polished, professional message with expanded abbreviations.
+
+- Agents are orchestrated via CrewAI + LangChain, making the workflow modular, interpretable, and extensible.
+
+##  Use Cases
+
+- Students writing professional emails to professors or recruiters
+
+- Employees sending client communication
+
+- Managers preparing formal business requests
+
+- Anyone who wants to upgrade casual writing into professional tone instantly
+
+## Future Enhancements
+
+- Add tone customization (formal, friendly, persuasive)
+
+- Multi-language email rewriting
+
+- Integration with Gmail/Outlook APIs
+
+- Slack/Teams bot integration
+
+  
