@@ -1,0 +1,5 @@
+streamlit
+crewai
+python-dotenv
+onnxruntime
+langchain-community
