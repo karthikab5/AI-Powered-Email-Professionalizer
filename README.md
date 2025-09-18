@@ -16,7 +16,7 @@ This project uses **CrewAI agents** + **LangChain** inside a **Streamlit app** t
 
 ---
 
-## 🖼 Demo Preview  
+##  Demo Preview  
 
 <img width="1803" height="788" alt="image" src="https://github.com/user-attachments/assets/66a707a6-eb69-4763-9d1f-7c010825101c" />
 <img width="1717" height="774" alt="image" src="https://github.com/user-attachments/assets/38271d6c-44fe-42de-994d-a00bf78095d6" />
